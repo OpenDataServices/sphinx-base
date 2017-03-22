@@ -345,6 +345,10 @@ texinfo_documents = [
 # texinfo_no_detailmenu = False
 
 
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
+
+
 
 def setup(app):
     app.add_config_value('recommonmark_config', {

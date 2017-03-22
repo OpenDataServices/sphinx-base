@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Open Referral
+# This file is distributed under the same license as the Open Referral package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Open Referral 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-22 12:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.md:0
+msgid "Open Referral"
+msgstr "[Ǿƥḗƞ Řḗƒḗřřȧŀ ϱςǈ靐 ǋſ鶱ẛ鶱ı]"
+
+#: ../../index.md:4
+msgid "Contents:"
+msgstr "[Ƈǿƞŧḗƞŧş: ẛΐǋ靐ϱſǋϐΰ]"
+
+#: ../../index.md:0
+msgid "Indices and tables"
+msgstr "[Īƞḓīƈḗş ȧƞḓ ŧȧƀŀḗş 鶱ςǅı靐ϵ鶱 鶱ϰ]"
+
+#: ../../index.md:1
+msgid ":ref:`genindex`"
+msgstr "[:řḗƒ:`ɠḗƞīƞḓḗẋ` ǲǲΰϰıǲǅǋϱ靐]"
+
+#: ../../index.md:2
+msgid ":ref:`modindex`"
+msgstr "[:řḗƒ:`ḿǿḓīƞḓḗẋ` ϕςſǅΰϐΐϑϰΐ]"
+
+#: ../../index.md:3
+msgid ":ref:`search`"
+msgstr "[:řḗƒ:`şḗȧřƈħ` ϖϕ靐ǅẛϐϑϕǅẛΰ]"
