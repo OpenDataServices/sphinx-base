@@ -1,5 +1,6 @@
-Open Referral
-=============
+Open Data Services Sphinx Base
+==============================
+
 
 Contents:
 

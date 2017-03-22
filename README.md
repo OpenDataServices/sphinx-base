@@ -1,4 +1,4 @@
-# sphinx-base
+# Open Data Services Sphinx Base
 
 The base Sphinx setup (recommonmark + internationalisation) for Open Data
 Services docs projects.
