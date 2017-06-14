@@ -7,16 +7,34 @@ Services docs projects.
 
 ### Build the docs locally
   
-Assuming a unix based system with Python 3 installed:
-
+Assuming a unix based system:
 
 ```
+# Make sure you have python3 venv, e.g. for Ubuntu
+# If you're not sure, try creating a venv, and see if it errors
+sudo apt-get install python3-venv
+
+# Create a venv
 python3 -m venv .ve    
-pip install -r requirements.txt
+# Enter the venv, needs to be run for every new shell
 source .ve/bin/activate
+# Install requirements
+pip install -r requirements.txt
+# Build the docs
 cd docs
 make dirhtml
 ```
+
+Built docs are in `docs/_build/dirhtml`.
+
+
+Viewing the docs:
+```
+cd _build/dirhtml
+python -m http.server
+```
+
+Then go to http://localhost:8000/ in a browser.
 
 ### Translations
 
