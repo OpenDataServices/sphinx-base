@@ -29,6 +29,16 @@ Table without horizonal scrollbar:
       - True
 ```
 
+### Markdown reference links
+
+Link to [a ref](a-ref).
+
+
+```eval_rst
+.. _a-ref:
+```
+#### Referenced section
+
 
 
 ## Contents
@@ -39,15 +49,4 @@ Table without horizonal scrollbar:
 
    about
 
-```
-
-
-
-Indices and tables
-==================
-
-```eval_rst
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 ```
