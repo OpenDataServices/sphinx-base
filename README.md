@@ -3,6 +3,13 @@
 The base Sphinx setup (recommonmark + internationalisation) for Open Data
 Services docs projects.
 
+## Features
+
+* Markdown support (thanks to recommonmark)
+* Internationalisation
+* Wrapping text in tables, to avoid having horizontal scrollbars
+
+
 ## Building the documentation
 
 ### Build the docs locally
