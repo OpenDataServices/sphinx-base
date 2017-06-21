@@ -43,6 +43,21 @@ python -m http.server
 
 Then go to http://localhost:8000/ in a browser.
 
+
+### Building on readthedocs
+
+* Select your repo at: https://readthedocs.org/dashboard/import/
+* Tick: "Edit advanced project options:"
+* Click "Next" button
+* Documentation type: "Sphinx HtmlDir"
+* Click "Finish" button
+* Click "Admin" button, then "Advanced Settings" in the left hand nav
+* Requirements file: "requirements.txt"
+* Python interpreter: "CPython 3.x"
+* Click "Submit" button
+
+
+
 ### Translations
 
 Translations are generally done using this transifex project.
