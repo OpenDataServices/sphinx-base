@@ -26,6 +26,7 @@ python3 -m venv .ve
 # Enter the venv, needs to be run for every new shell
 source .ve/bin/activate
 # Install requirements
+pip install -r pre_requirements.txt
 pip install -r requirements.txt
 # Build the docs
 cd docs
@@ -46,13 +47,15 @@ Then go to http://localhost:8000/ in a browser.
 
 ### Building on readthedocs
 
+Initial setup:
+
 * Select your repo at: https://readthedocs.org/dashboard/import/
 * Tick: "Edit advanced project options:"
 * Click "Next" button
 * Documentation type: "Sphinx HtmlDir"
 * Click "Finish" button
 * Click "Admin" button, then "Advanced Settings" in the left hand nav
-* Requirements file: "requirements.txt"
+* Requirements file: `readthedocs_requirements.txt`
 * Python interpreter: "CPython 3.x"
 * Click "Submit" button
 
