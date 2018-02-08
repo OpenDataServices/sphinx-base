@@ -39,7 +39,26 @@ Link to [a ref](a-ref).
 ```
 #### Referenced section
 
+# Markdown inside an admonition
 
+```eval_rst
+.. admonition:: Admonition
+    :class: hint
+
+    .. markdown::
+
+        Some markdown [a URL](http://example.org), `single backtick literals`.
+```
+
+(from <https://sphinxcontrib-opendataservices.readthedocs.io/en/latest/misc/>)
+
+# JSONSchema
+
+```eval_rst
+.. jsonschema:: _static/example_schema.json
+```
+
+For more examples see <https://sphinxcontrib-opendataservices.readthedocs.io/en/latest/jsonschema/>
 
 ## Contents
 
