@@ -26,7 +26,7 @@ python3 -m venv .ve
 # Enter the venv, needs to be run for every new shell
 source .ve/bin/activate
 # Install requirements
-pip install -r pre_requirements.txt
+pip install --upgrade pip setuptools
 pip install -r requirements.txt
 # Build the docs
 cd docs
@@ -55,7 +55,7 @@ Initial setup:
 * Documentation type: "Sphinx HtmlDir"
 * Click "Finish" button
 * Click "Admin" button, then "Advanced Settings" in the left hand nav
-* Requirements file: `readthedocs_requirements.txt`
+* Requirements file: `requirements.txt`
 * Python interpreter: "CPython 3.x"
 * Click "Submit" button
 
