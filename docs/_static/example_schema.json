@@ -1,4 +1,6 @@
 {
+    "title": "Some Object",
+    "description": "A description of an object, of some sort or kind",    
     "type": "object",
     "properties": {
         "id": {

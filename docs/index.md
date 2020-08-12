@@ -58,6 +58,10 @@ Link to [a ref](a-ref).
 .. jsonschema:: _static/example_schema.json
 ```
 
+# JSONSchema with docson
+
+<script src="_static/docson/widget.js" data-schema="../../_static/example_schema.json"></script>
+
 For more examples see <https://sphinxcontrib-opendataservices.readthedocs.io/en/latest/jsonschema/>
 
 ## Contents
