@@ -21,13 +21,20 @@ Assuming a unix based system:
 # If you're not sure, try creating a venv, and see if it errors
 sudo apt-get install python3-venv
 
+# Install submodules
+git submodule init
+git submodule update
+
 # Create a venv
 python3 -m venv .ve    
+
 # Enter the venv, needs to be run for every new shell
 source .ve/bin/activate
+
 # Install requirements
 pip install --upgrade pip setuptools
 pip install -r requirements.txt
+
 # Build the docs
 cd docs
 make dirhtml
