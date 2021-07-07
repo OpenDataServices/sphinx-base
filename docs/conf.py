@@ -20,7 +20,6 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-from recommonmark.transform import AutoStructify
 
 # -- General configuration ------------------------------------------------
 
@@ -31,7 +30,7 @@ from recommonmark.transform import AutoStructify
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark', 'sphinxcontrib.opendataservices', 'sphinxcontrib.jsonschema']
+extensions = ['myst_parser', 'sphinxcontrib.opendataservices', 'sphinxcontrib.jsonschema']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -351,13 +350,3 @@ texinfo_documents = [
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
-
-
-
-def setup(app):
-    app.add_config_value('recommonmark_config', {
-        #'url_resolver': lambda url: github_doc_root + url,
-        'auto_toc_tree_section': 'Contents',
-        'enable_eval_rst': True
-        }, True)
-    app.add_transform(AutoStructify)

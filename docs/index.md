@@ -6,7 +6,7 @@ Open Data Services Sphinx Base
 
 Table without horizonal scrollbar:
 
-```eval_rst
+```{eval-rst}
 .. list-table::
     :header-rows: 1
     :widths: 1 3 1 1
@@ -34,14 +34,14 @@ Table without horizonal scrollbar:
 Link to [a ref](a-ref).
 
 
-```eval_rst
+```{eval-rst}
 .. _a-ref:
 ```
 #### Referenced section
 
 # Markdown inside an admonition
 
-```eval_rst
+```{eval-rst}
 .. admonition:: Admonition
     :class: hint
 
@@ -54,7 +54,7 @@ Link to [a ref](a-ref).
 
 # JSONSchema
 
-```eval_rst
+```{eval-rst}
 .. jsonschema:: _static/example_schema.json
 ```
 
@@ -66,7 +66,7 @@ For more examples see <https://sphinxcontrib-opendataservices.readthedocs.io/en/
 
 ## Contents
 
-```eval_rst
+```{eval-rst}
 .. toctree::
    :maxdepth: 2
 

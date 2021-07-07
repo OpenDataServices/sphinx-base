@@ -13,6 +13,11 @@
             "description": "Foo bar baz bar baz bar baz bar baz. Bar foo baz foo bar. Baz bar foo bar foo bar foo bar foo.",
             "type": "integer"
         },
+        "markdown": {
+            "title": "Some markdown",
+            "description": "*italic* **bold** [a link](http://example.org)",
+            "type": "integer"
+        },
         "when": {
             "title": "When",
             "description": "When did this thing happen",
