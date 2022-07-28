@@ -1,14 +1,16 @@
 # Open Data Services Sphinx Base
 
-The base Sphinx setup (recommonmark + internationalisation) for Open Data
-Services docs projects.
+The base Sphinx setup (myst-parser + internationalisation + Open Data Services
+maintained extensions) for Open Data Services docs projects.
 
 ## Features
 
-* Markdown support (thanks to recommonmark)
+* Markdown support (thanks to myst-parser)
 * Internationalisation
 * Wrapping text in tables, to avoid having horizontal scrollbars
-
+* Extra directives you can use, thanks to our extensions, see the docs of those for more information:
+  - https://sphinxcontrib-opendataservices.readthedocs.io/en/latest/
+  - https://sphinxcontrib-opendataservices-jsonschema.readthedocs.io/en/latest/use.html
 
 ## Building the documentation
 
