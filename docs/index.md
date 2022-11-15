@@ -68,8 +68,8 @@ For more examples see <https://sphinxcontrib-opendataservices.readthedocs.io/en/
 
 ```{eval-rst}
 .. toctree::
-   :maxdepth: 2
+    :titlesonly:
 
-   about
+   kitchen-sink/index
 
 ```
