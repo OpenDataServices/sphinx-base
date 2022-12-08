@@ -342,3 +342,6 @@ texinfo_documents = [
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
+
+def setup(app):
+    app.add_js_file('widget_func.js')
