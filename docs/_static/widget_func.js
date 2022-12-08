@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (div.attributes["data-docson"]) {
             docson = div.attributes["data-docson"].value;
         } else {
-            docson = div.attributes["data-path"].value + "index.html";
+            docson = window.location.href + div.attributes["data-path"].value + "index.html";
         }
         div.insertAdjacentHTML('beforeend', "<iframe id='" + div.attributes["data-schema"].value +
             "' style='padding: 0; border: 0; width:100%; background: transparent' src='" +
