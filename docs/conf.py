@@ -30,7 +30,12 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['myst_parser', 'sphinxcontrib.opendataservices', 'sphinxcontrib.jsonschema', 'sphinx_rtd_theme',]
+extensions = ['myst_parser',
+              'sphinxcontrib.opendataservices',
+              'sphinxcontrib.jsonschema',
+              'sphinx_rtd_theme',
+              'sphinx.ext.todo',
+              'sphinx.ext.autodoc',]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
