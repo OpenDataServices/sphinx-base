@@ -1,0 +1,3 @@
+id, service_id, valid_from, valid_to, freq, byday, description, opens_at, closes_at
+1098, 35, 2020-04-01, 2020-12-20, "WEEKLY", "MO,TU,WE,TH", "Monday to Thursday, 9-12 am", "09:00", "12:00"
+1099, 35, 2020-04-01, 2020-12-20, "WEEKLY", "MO,TU,WE,TH", "Monday to Thursday, 3-5 pm", "15:00", "17:00"
