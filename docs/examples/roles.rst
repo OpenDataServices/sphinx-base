@@ -4,7 +4,7 @@ Roles
 Roles
 -----
 
-Roles are :
+Sphinx text roles can be used to explicitly specify what kind of text is required:
 
 .. code-block:: rest
 
