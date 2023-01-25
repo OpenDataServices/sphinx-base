@@ -35,7 +35,8 @@ extensions = ['myst_parser',
               'sphinxcontrib.jsonschema',
               'sphinx_rtd_theme',
               'sphinx.ext.todo',
-              'sphinx.ext.autodoc',]
+              'sphinx.ext.autodoc',
+              'sphinx_togglebutton',]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -351,3 +352,5 @@ texinfo_documents = [
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
+
+togglebutton_hint = ""
