@@ -3,6 +3,8 @@ sphinx-togglebutton
 sphinxcontrib-opendataservices
 sphinxcontrib-opendataservices-jsonschema
 sphinx-intl
-transifex-client
+# Don't install this, as it's for Transifex API v2, which is now discontinued
+# We will need to migrate to https://developers.transifex.com/docs/cli instead
+#transifex-client
 sphinx_rtd_theme
 myst-parser
