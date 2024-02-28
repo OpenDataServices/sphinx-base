@@ -1,3 +1,6 @@
 .ve
 *.swp
 *~
+.devcontainer
+.vscode
+
