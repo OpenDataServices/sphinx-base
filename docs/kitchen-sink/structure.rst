@@ -7,6 +7,8 @@
 Structural Elements
 *******************
 
+.. include:: thingtoinclude.rst
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem neque, interdum in ipsum nec,
 finibus dictum velit. Ut eu efficitur arcu, id aliquam erat. In sit amet diam gravida, imperdiet tellus eu,
 gravida nisl. Praesent aliquet odio eget libero elementum, quis rhoncus tellus tincidunt.
@@ -64,6 +66,8 @@ Donec at lacus suscipit, lacinia lectus vel, sagittis lectus.
 *********************
 Structural Elements 2
 *********************
+
+.. include:: thingtoinclude.rst
 
 Etiam turpis ante, luctus sed velit tristique, finibus volutpat dui. Nam sagittis vel ante nec malesuada.
 Praesent dignissim mi nec ornare elementum. Nunc eu augue vel sem dignissim cursus sed et nulla.
