@@ -12,6 +12,12 @@ The base Sphinx setup (myst-parser + internationalisation + Open Data Services m
    :caption: Table of Contents
 
    features
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 2
+   :caption: Example Usage
+
    examples/index
    kitchen-sink/index
 
