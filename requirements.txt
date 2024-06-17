@@ -98,7 +98,7 @@ sphinxcontrib-qthelp==1.0.7
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
-urllib3==2.1.0
+urllib3==2.2.2
     # via requests
 wheel==0.42.0
     # via sphinx-togglebutton
